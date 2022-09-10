@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"
+  <remote name="couchbase" fetch="git+ssh://github.com/couchbase/"
           review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"
+  <remote name="couchbaselabs" fetch="git+ssh://github.com/couchbaselabs/"
           review="review.couchbase.org" />
-  <remote name="trondn" fetch="git://github.com/trondn/"
+  <remote name="trondn" fetch="git+ssh://github.com/trondn/"
           review="review.couchbase.org" />
-  <remote name="avsej" fetch="git://github.com/avsej/"
+  <remote name="avsej" fetch="git+ssh://github.com/avsej/"
           review="review.couchbase.org" />
-  <remote name="git-mirror" fetch="git://github.com/git-mirror/"/>
+  <remote name="git-mirror" fetch="git+ssh://github.com/git-mirror/"/>
   <default remote="couchbase" revision="master"/>
 
   <project path="lcb" name="libcouchbase" />
