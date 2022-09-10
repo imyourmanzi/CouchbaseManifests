@@ -16,7 +16,7 @@
   <project path="node" name="couchnode" />
   <project path="php" name="php-ext-couchbase" />
   <project path="python" name="couchbase-python-client" />
-  <project path="ruby/client" name="couchbase-ruby-client" />
+  <project path="ruby/client" name="couchbase-ruby-client" revision="main" />
   <project path="ruby/model" name="couchbase-ruby-model" />
   <project path="demo/beer-sample" name="beer-sample"  remote="avsej"/>
   <project path="demo/beer.rb" name="couchbase-beer.rb"  remote="couchbaselabs"/>
